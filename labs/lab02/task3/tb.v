@@ -49,4 +49,5 @@ initial begin
     $monitor($time, " A=%b B=%b | GT=%b LT=%b EQ=%b ", A,B,GT,LT,EQ);
 end
 
+
 endmodule
