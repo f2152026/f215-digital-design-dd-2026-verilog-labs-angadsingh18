@@ -33,4 +33,5 @@ initial begin
     $monitor($time, " a=%0d b=%0d op=%b | result=%0d (binary: %b)", 
              a, b, op, result, result);
   end
+
 endmodule
